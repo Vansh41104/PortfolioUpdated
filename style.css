@@ -257,5 +257,8 @@ hr{
     
 }
 #thirdProj .projectimg{
-    background-image: url("https://images.pexels.com/photos/27101036/pexels-photo-27101036/free-photo-of-a-lone-horse-stands-in-the-middle-of-a-vast-plain.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-image: url("assets/img3.png");
+}
+#fourthProj .projectimg{
+    background-image: url("assets/img4.png");
 }
