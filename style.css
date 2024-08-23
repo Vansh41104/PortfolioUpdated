@@ -48,7 +48,7 @@ body{
     transition: 0.4s ease-in-out;
 }
 #second{
-    padding-left: 150px;
+    padding-right: 70px;
 }
 #second li{
     padding: 15px;
@@ -98,6 +98,10 @@ body{
     flex-direction: column; 
     color: white;
     padding-top: 100px;
+    width: 84%;
+    padding-left: 150px;
+    padding-right: 100px;
+    flex-wrap: wrap;
 }
 .about h1{
     font-size: 40px;
@@ -261,4 +265,158 @@ hr{
 }
 #fourthProj .projectimg{
     background-image: url("assets/img4.png");
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.footer .left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 150px;
+    color: white;
+}
+.footer .left p{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.footer .left img{
+    width: 300px;
+    height: 50px;
+    object-fit: cover;
+}
+.footer .end{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-direction: row;
+    flex: 1;
+    padding-right: 12%;
+
+}
+.footer .end p span{ 
+    background: linear-gradient( to right,  rgb(136, 15, 216) 0%,rgb(201, 40, 216) 50%, rgb(255, 0, 221) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media(max-width:1550px){
+    .hero .left{
+        width: 70%;
+        font-size: 25px;
+    }
+    .about p{
+        font-size: 25px;
+        padding-left: 0px;
+
+    }
+} 
+@media(max-width:1350px){
+    .hero .left{
+        width: 70%;
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 20px;
+    }
+    .footer .left p{
+        font-size: 15px;
+    }
+    .footer .end p{
+        font-size: 15px;
+    }
+} 
+@media(max-width:1150px){
+    .hero .left{
+        width: 70%;
+        font-size: 18px;
+    }
+    .hero .right img{
+        width: 250px;
+        height: 250px;
+    }
+    .about p{
+        font-size: 20px;
+        padding-right: 100px;
+    }
+    .exp{
+        padding-right: 100px;
+    }
+    .timing{
+        padding-right: 100px;
+    }
+    .timing p{
+        font-size: 12px;
+    }
+    hr{
+        width: 80%;
+    }
+    .desc h6{
+        font-size: 15px;
+    }
+
+} 
+@media(max-width:1024px){
+    .hero .left{
+        width: 70%;
+        font-size: 15px;
+    }
+    .footer .left p{
+        font-size: 12px;
+    }
+    .footer .end p{
+        font-size: 12px;
+    }
+    .desc h6{
+        font-size: 12px;
+    }
+}
+@media(max-width:900px){
+    #second li{
+        padding-left: 20px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .hero .left{
+        width: 70%;
+        font-size: 12px;
+    }
+    .about p{
+        font-size: 15px;
+    }
+    .about p{
+        font-size: 20px;
+        padding-right: 100px;
+    }
+    .exp{
+        padding-right: 70px;
+    }
+    .timing{
+        padding-right: 70px;
+    }
+    hr{
+        width: 70%;
+    }
+    .stack{
+        width: 70%;
+    }
+    .footer .left p{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .footer .end p{
+        font-size: 10px;
+    }
+    .footer .left img{
+        width: 200px;
+        height: 40px;
+    }
 }
